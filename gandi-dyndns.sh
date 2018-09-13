@@ -8,5 +8,5 @@ curl -s  http://api.ipify.org |
                       -H 'x-api-key: XXXXXXXXXXXXXX' \
                       -X PUT \
                       -d '{ "rrset_ttl": 1800, "rrset_values": ["{}"] }' \
-                       https://dns.api.gandi.net/api/v5/domains/<my domain>/records/<my cname entry>/A
+                       https://dns.api.gandi.net/api/v5/domains/my_domain.com/records/my_cname_entry/A
   
