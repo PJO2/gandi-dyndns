@@ -16,8 +16,9 @@ How to update domain zones using gandi's APIs (shell only !)
 
 ## How it works :
 Step 1: get the Box IP address from http://api.ipify.org (this URL returns exactly the IPv4 address)  
-Step 2 : pipe to xargs to put the Box IP address into the {} pseudo-variable  
-Step 3 : use curl to call Gandi's API with following parameters:    
+Step 2: pipe to xargs to put the Box IP address into the {} pseudo-variable  
+Step 3: use curl to call Gandi's API with following parameters:  
+
   | parameter | value |
   | ------ | ------ |
   | command | PUT (replace previous entries or create if needed) |
