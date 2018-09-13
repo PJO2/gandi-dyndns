@@ -4,9 +4,9 @@ How to update domain zones using gandi's APIs (shell only !)
 
 ## Quick Start : 
 1. edit the script and replace :
-   - [x] the api key
-   - [x] the domain you want to use
-   - [x] the cname on which you want to apply dyndns
+   - [x] XXX by your api key (see [[https://doc.livedns.gandi.net/]])
+   - [x] <example.com> by the domain you want to use
+   - [x] <my cname entry> by the cname on which you want to apply dyndns
 1. make the script executable
    - [x] chmod +x gandi-dyndns.sh
 1. install the script into the crontab
