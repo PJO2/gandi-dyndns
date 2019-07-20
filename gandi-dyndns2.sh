@@ -8,3 +8,4 @@
                       -X PUT \
                       -d "{ \"rrset_ttl\": 1800, \"rrset_values\": [\"$IP\"] }" \
                       https://dns.api.gandi.net/api/v5/domains/<mydomain.com>/records/<my host>/A
+ done
